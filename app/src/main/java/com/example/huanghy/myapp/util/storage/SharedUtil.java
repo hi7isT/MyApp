@@ -1,4 +1,4 @@
-package com.example.huanghy.myapp.util;
+package com.example.huanghy.myapp.util.storage;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -12,10 +12,11 @@ import android.content.SharedPreferences.Editor;
  *
  *      补充：在应用中任何位置都可以使用该SharedUtil类来实现SharedPreference存储
  *
- * Android 系统中主要提供了三种方式用于简单地实现数据持久化功能，
- * 即文件存储、SharedPreference 存储以及数据库存储。当然，除了这三种方式之外，你还可
- * 以将数据保存在手机的SD 卡中，不过使用文件、SharedPreference 或数据库来保存数据会相
- * 对更简单一些，而且比起将数据保存在SD 卡中会更加的安全。
+ *      Android 系统中主要提供了三种方式用于简单地实现数据持久化功能，
+ *      即文件存储、SharedPreference 存储以及数据库存储。当然，除了这三种方式之外，你还可
+ *      以将数据保存在手机的SD 卡中，不过使用文件、SharedPreference 或数据库来保存数据会相
+ *      对更简单一些，而且比起将数据保存在SD 卡中会更加的安全。
+ *
  */
 
 public class SharedUtil {
@@ -24,7 +25,7 @@ public class SharedUtil {
 
 
     /**
-     * 获取SharedPreference实例
+     * 获取SharedPreference实例(该类的关键所在)
      *
      *      android原生获取该实例有三种方式:
      *          Context 类中的getSharedPreferences()方法.
