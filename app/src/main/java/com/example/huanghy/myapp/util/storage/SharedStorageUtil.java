@@ -7,8 +7,8 @@ import android.content.SharedPreferences.Editor;
 /**
  * Created by huanghy on 2017/4/9.
  *
- * SharedPrefererence存储(以键值对的形式进行存储)以及读取
- *      存储位置：可以在DDMS下的shared_prefs下查看，是app_share.xml文件.
+ * SharedPrefererence存储(以键值对的形式进行存储)以及读取    (storage  [ˈstɔ:rɪdʒ]-->>"存储"的意思)
+ *      存储位置：可以在DDMS下的shared_prefs目录下查看，是app_share.xml文件.
  *
  *      补充：在应用中任何位置都可以使用该SharedUtil类来实现SharedPreference存储
  *
@@ -19,9 +19,9 @@ import android.content.SharedPreferences.Editor;
  *
  */
 
-public class SharedUtil {
+public class SharedStorageUtil {
 
-    private static final String SHARED_FILE_NAME="app_share";//文件名
+    private static final String SHARED_FILE_NAME="app_share";//文件名(可根据实际情况自己修改)
 
 
     /**
