@@ -8,7 +8,9 @@ import android.content.SharedPreferences.Editor;
  * Created by huanghy on 2017/4/9.
  *
  * SharedPrefererence存储(以键值对的形式进行存储)以及读取
- *      可以在DDMS下的shared_prefs下查看，是app_share.xml文件.
+ *      存储位置：可以在DDMS下的shared_prefs下查看，是app_share.xml文件.
+ *
+ *      补充：在应用中任何位置都可以使用该SharedUtil类来实现SharedPreference存储
  *
  * Android 系统中主要提供了三种方式用于简单地实现数据持久化功能，
  * 即文件存储、SharedPreference 存储以及数据库存储。当然，除了这三种方式之外，你还可
