@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.huanghy.myapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,9 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Main2Activity">
+
+        </activity>
+        <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <!-- category可以声明多个，但action只能声明一个 -->
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
