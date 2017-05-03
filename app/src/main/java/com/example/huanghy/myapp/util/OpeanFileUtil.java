@@ -1,4 +1,4 @@
-package com.example.huanghy.myapp.util.download;
+package com.example.huanghy.myapp.util;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -14,7 +14,7 @@ import java.io.File;
  *      附件打开 工具类
  */
 
-public class CallOtherOpeanFile {
+public class OpeanFileUtil {
 
     /**
      * 打开附件
