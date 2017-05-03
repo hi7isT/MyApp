@@ -14,6 +14,7 @@ import java.net.URLConnection;
  * Created by huanghy on 2017/4/28.
  * 文件下载
  *      注意：需要在AndroidManifest.xml中声明网络权限和向sd卡中写入的权限
+ *           如果是附件下载，建议保存到手机的时候使用附件id做为文件名，这样可以保证附件的唯一性。
  */
 
 public class FileDownLoadUtil {
