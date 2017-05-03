@@ -11,7 +11,7 @@ import java.io.File;
 /**
  * Created by huanghy on 2017/5/3.
  *
- *      打开附件工具类
+ *      附件打开 工具类
  */
 
 public class CallOtherOpeanFile {
